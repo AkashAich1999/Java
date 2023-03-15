@@ -5,9 +5,9 @@ public class FinalKeyword {
     public static void main(String[] args) {
 
         // As we can't modify the final variable, so always initialize while Declaraing. It applies for only primitive datatype.
-        final int n = 2;
+        final int N = 2;
 //        n = 4;         // Value cannot be modified in case of primitive datatype.
-        System.out.println(n);
+        System.out.println(N);
         System.out.println();
 
         // Incase of non-primitive datatype, object's value can be modified but the reference to the object cannot be modified.

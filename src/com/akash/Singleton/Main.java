@@ -7,5 +7,7 @@ public class Main {
         SingleTon obj2 = SingleTon.getInstance();
 
         SingleTon obj3 = SingleTon.getInstance();
+
+        // All the 3 Reference variables are pointing to the same one object.
     }
 }
